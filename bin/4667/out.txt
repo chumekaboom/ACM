@@ -1,0 +1,4 @@
+2:Prime 
+66:NotPrime 
+67:NotPrime 
+127:Prime
