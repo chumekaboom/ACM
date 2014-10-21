@@ -11,7 +11,7 @@ int main()
 	int value=0;
 	for(int i=0; i<input.size();i++)
 		if(input[i]!=' ')
-			value=value+(input[i]-64)*(i+1);
+			value=value+(input[i]-'A'+1)*(i+1);
 	std::cout<<value<<"\n";
 	}
 }
